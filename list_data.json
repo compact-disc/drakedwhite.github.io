@@ -4,33 +4,38 @@
 			"Title": "The Big Lebowski",
 			"Director": "Coen Brothers",
 			"Rating": "R",
-			"Year": "1998"
+			"Year": "1998",
+			"Lead Actors": "Jeff Bridges, John Goodman"
 		},
 		{
 			"Title": "Sunset Limited",
 			"Director": "Tommy Lee Jones",
 			"Rating": "R",
-			"Year": "2011"
+			"Year": "2011",
+			"Lead Actors": "Samuel L Jackson, Tommy Lee Jones"
 		},
 		{
 			"Title": "Spirited Away",
 			"Director": "Hayao Miyazaki",
 			"Rating": "PG",
-			"Year": "2001"
+			"Year": "2001",
+			"Lead Actors": "Daveigh Chase, Suzanne Pleshette" 
 		},
 
 		{
 			"Title": "Once Upon a Time in Hollywood",
 			"Director": "Quentin Tarantino",
 			"Rating": "R",
-			"Year": "2019"
+			"Year": "2019",
+			"Lead Actors": "Leonardo di Caprio, Brad Pitt"
 		},
 
 		{
 			"Title": "Tenet",
 			"Director": "Christopher Nolan",
 			"Rating": "R",
-			"Year": "2020"
+			"Year": "2020",
+			"Lead Actors": "John David Washington, Robert Pattinson"
 		}
 	]
 }
