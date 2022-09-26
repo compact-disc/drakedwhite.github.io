@@ -33,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #ffc800;
+  --bs-primary: #F464FF;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -41,8 +41,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 255, 200, 0;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-primary-rgb: 244, 100, 255;
+  --bs-secondary-rgb: 244, 150, 255;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 200, 0;
@@ -11393,8 +11393,8 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/header-bg.jpg");
@@ -11420,8 +11420,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
+    padding-top: 6rem;
+    padding-bottom: .5rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
