@@ -87,7 +87,7 @@ function onSubmit(e) {
 
     // notify user if the first and second D8 results are the same 
     if (firstD8 == secondD8) {
-        outputHTML += "<p> Your chaos bolt arcs to a new enemy! Hit roll again and pick a new target within 30 feet!"
+        outputHTML += "<p id='arcText'> Your chaos bolt arcs to a new enemy! Hit roll again and pick a new target within 30 feet!"
     }
 
     // set html 
