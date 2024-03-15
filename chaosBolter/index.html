@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaos Bolter</title>
+</head>
+<body>
+    <h1>Welcome to Chaos Bolter!</h1>
+    <p>You can use this interface to roll Chaos Bolt from Dungeons and Dragons Fifth Edition, but instead without all the annoying manual math. </p>
+
+    <p>At which level would you like to cast Chaos Bolt? </p>
+    <br>
+
+    <form id="chaosBolterForm">
+        <div>
+            <!-- Radio buttons -->
+            <label for="spellLevel"><strong>Spell Level</strong></label>
+            <br>
+            <!-- adding the checked attribute makes it be selected by default when the web page is loaded-->
+            <input type="radio" name="spellLevel" value=1 id="spellLevel" checked> 1
+            <br>
+            <input type="radio" name="spellLevel" value=2 id="spellLevel"> 2
+            <br>
+            <input type="radio" name="spellLevel" value=3 id="spellLevel"> 3
+            <br>
+            <input type="radio" name="spellLevel" value=4 id="spellLevel"> 4
+            <br>
+            <input type="radio" name="spellLevel" value=5 id="spellLevel"> 5
+            <br>
+            <input type="radio" name="spellLevel" value=6 id="spellLevel"> 6
+            <br>
+            <input type="radio" name="spellLevel" value=7 id="spellLevel"> 7
+            <br>
+            <input type="radio" name="spellLevel" value=8 id="spellLevel"> 8
+            <br>
+            <input type="radio" name="spellLevel" value=9 id="spellLevel"> 9
+
+        </div>
+
+        <br>
+        <!-- input button  -->
+
+        <!-- using button tag -->
+        <button type="submit" value="submit"> Roll! </button>
+    </form>
+
+    <div id="output">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
