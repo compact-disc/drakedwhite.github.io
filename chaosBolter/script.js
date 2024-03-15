@@ -61,7 +61,7 @@ function onSubmit(e) {
     // console.log(typeof(parseInt(level)));
     // console.log(parseInt(level));
 
-    outputHTML = "<p>You did <strong>" + dmg + " " + dmgTypes[firstD8] + "</strong> damage!</p>"
+    outputHTML = "<p>You did <strong>" + dmg + " " + dmgTypes[firstD8] + "/" + dmgTypes[secondD8] + "</strong> damage!</p>"
 
     if (firstD8 == secondD8) {
         outputHTML += "<p> Your chaos bolt arcs to a new enemy! Hit roll again and pick a new target within 30 feet!"
